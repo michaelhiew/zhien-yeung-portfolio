@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f3ed" />
+    <meta name="description" content="The portfolio of Hiew Zhien Yeung, a third-year Network Computing student at Universiti Malaysia Sarawak." />
+    <title>Hiew Zhien Yeung — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="profile.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" id="top">
+      <a class="brand" href="#home" aria-label="Hiew Zhien Yeung, home"><span class="brand-mark">HZY</span><span>Hiew Zhien Yeung</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="nav" id="primary-nav" aria-label="Primary navigation">
+        <a class="nav-link is-active" href="#home">Home</a>
+        <a class="nav-link" href="#work">Projects <span class="nav-count">05</span></a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#contact">Contact</a>
+        <button class="theme-toggle" type="button" aria-label="Switch to dark theme" title="Toggle color theme"><span class="theme-icon" aria-hidden="true">◐</span></button>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero section-shell" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-rule"></span> 2026</p>
+          <h1 id="hero-title">Hello, I’m<br /><span class="name-line">Hiew Zhien<br />Yeung<span class="accent-dot">.</span></span></h1>
+          <p class="hero-summary">I’m a third-year Network Computing student at <strong>Universiti Malaysia Sarawak</strong>. I’m interested in how useful digital experiences and the networks behind them work together.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#work">Explore my work <span aria-hidden="true">↘</span></a><a class="text-link" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-meta"><span>KUCHING, MALAYSIA</span><span class="meta-divider"></span><span>NETWORK COMPUTING · YEAR 3</span></div>
+        </div>
+        <div class="hero-art" aria-label="Decorative illustration showing creative tools and a blue abstract shape">
+          <div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div>
+          <div class="art-note note-top"><span class="note-dot"></span> DESIGN WITH INTENTION</div>
+          <div class="art-shape"><div class="shape-grid"></div><span class="shape-letter">Y</span><span class="shape-spark">✳</span></div>
+          <div class="art-sticker">CURIOUS<br />BY DEFAULT <span>↗</span></div>
+          <div class="art-caption"><span class="mono">FIG. 01</span><span>A work in progress,<br />always.</span></div>
+          <div class="art-cross cross-a">+</div><div class="art-cross cross-b">+</div>
+        </div>
+        <a class="scroll-cue" href="#work"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="work section-shell section-space" id="work" aria-labelledby="work-title">
+        <div class="section-heading" data-reveal><div><p class="eyebrow">01 / SELECTED WORK</p><h2 id="work-title">A few things<br /><em>made with care.</em></h2></div><p class="section-intro">From managing information to building desktop apps and web projects, I learn by making, testing ideas, and solving practical problems.</p></div>
+        <div class="project-toolbar" data-reveal>
+          <div class="filter-group" role="group" aria-label="Filter projects">
+            <button class="filter-button is-selected" type="button" data-filter="all" aria-pressed="true">All <span>05</span></button>
+            <button class="filter-button" type="button" data-filter="web" aria-pressed="false">Web <span>02</span></button>
+            <button class="filter-button" type="button" data-filter="software" aria-pressed="false">Software <span>03</span></button>
+          </div>
+          <label class="search-box"><span class="sr-only">Search projects</span><span aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="Find a project" autocomplete="off" /></label>
+        </div>
+        <div class="project-grid" id="project-grid">
+          <article class="project-card project-featured" data-category="web" data-reveal>
+            <button class="project-visual visual-inventory" type="button" data-project="0" aria-label="View details for the ISITI asset inventory system"><span class="visual-topline"><span>JOB ON CAMPUS / UNIMAS</span><span>↗</span></span><div class="inventory-screen"><div class="inventory-bar"><b>ISITI <span>/ UNIMAS</span></b><span>JOB ON CAMPUS</span></div><div class="inventory-main"><aside class="inventory-nav"><span>WORKSPACE</span><b>Overview</b><i>Asset register</i><i>Categories</i><i>Locations</i></aside><div class="inventory-content"><span class="inventory-kicker">ASSET MANAGEMENT</span><b class="inventory-title">Asset register</b><div class="inventory-stats"><span><b>INVENTORY</b>Asset records</span><span><b>ORGANIZATION</b>ISITI</span></div><div class="inventory-table"><span>ASSET</span><span>CATEGORY</span><span>STATUS</span><b>Workstation</b><i>Computing</i><em>Recorded</em><b>Network device</b><i>Infrastructure</i><em>Recorded</em></div></div></div></div><span class="visual-index">01</span></button>
+            <div class="project-info"><div><p class="project-type">ASSET INVENTORY <span>·</span> JOB ON CAMPUS</p><h3>ISITI Asset Inventory System</h3><p>Built an inventory system for filing and tracking assets at the Institute of Social Informatics and Technological Innovations (ISITI), a research institute at UNIMAS. Completed under the Job on Campus (JoC) programme, with support on other internal projects.</p></div><button class="arrow-button" type="button" data-project="0" aria-label="View ISITI Asset Inventory System details">↗</button></div>
+          </article>
+          <article class="project-card" data-category="software" data-reveal>
+            <button class="project-visual visual-billing" type="button" data-project="1" aria-label="View details for the Kuching Water Board billing prototype"><span class="visual-topline"><span>C PROGRAM / PROTOTYPE</span><span>↗</span></span><div class="billing-screen"><div class="billing-head"><b>KWB <span>/ WATER BILLING</span></b><span>C LANGUAGE</span></div><div class="billing-main"><div class="billing-copy"><span>CONSUMPTION-BASED BILLING</span><b>Water usage<br />calculator</b><i>CONSUMPTION + INDUSTRY TYPE</i></div><div class="billing-result"><span>ESTIMATED CHARGE</span><b>RM —</b><i>Prototype output</i></div></div><div class="billing-fields"><span>CONSUMPTION <b>Enter usage</b></span><span>INDUSTRY TYPE <b>Select type</b></span><strong>CALCULATE ↗</strong></div></div><span class="visual-index">02</span></button>
+            <div class="project-info"><div><p class="project-type">BILLING SYSTEM <span>·</span> C PROTOTYPE</p><h3>Kuching Water Board Billing Prototype</h3><p>Created a C program prototype for calculating water charges based on consumption and industry type.</p></div><button class="arrow-button" type="button" data-project="1" aria-label="View Kuching Water Board billing prototype details">↗</button></div>
+          </article>
+          <article class="project-card" data-category="software" data-reveal>
+            <button class="project-visual visual-membership" type="button" data-project="2" aria-label="View details for the gym membership database"><span class="visual-topline"><span>MEMBERSHIP DATABASE</span><span>↗</span></span><div class="membership-screen"><div class="member-top"><b>MEMBERDESK <span>/ GYM ADMIN</span></b><span>MANAGEMENT SYSTEM</span></div><div class="member-content"><aside class="member-nav"><b>Dashboard</b><i>Members</i><i>Class schedule</i><i>Payments</i></aside><div class="member-main"><span class="member-kicker">MEMBERSHIP OVERVIEW</span><b class="member-title">Member records</b><div class="member-metrics"><span><b>MEMBERS</b>Membership list</span><span><b>CLASSES</b>Enrollment schedule</span></div><div class="member-table"><span>MEMBER / CLASS</span><span>MEMBERSHIP</span><b>Member record</b><i>Expiry date</i><b>Class enrollment</b><i>Payment status</i></div></div></div></div><span class="visual-index">03</span></button>
+            <div class="project-info"><div><p class="project-type">DATABASE SYSTEM <span>·</span> MEMBERSHIP</p><h3>Gym Membership Database</h3><p>A database project for managing member records, class enrollments and schedules, payment details, and membership expiry dates.</p></div><button class="arrow-button" type="button" data-project="2" aria-label="View gym membership database details">↗</button></div>
+          </article>
+          <article class="project-card" data-category="software" data-reveal>
+            <button class="project-visual visual-quiz" type="button" data-project="3" aria-label="View details for the Java Swing quiz application"><span class="visual-topline"><span>JAVA SWING / QUIZ APP</span><span>↗</span></span><div class="quiz-screen"><div class="quiz-top"><b>QUIZ / 20</b><span>JAVA SWING</span></div><div class="quiz-progress"><span></span></div><div class="quiz-meta"><span>QUESTION 06 / 20</span><span>SCORE 05</span></div><b class="quiz-question">Sample multiple-choice question</b><div class="quiz-options"><span><i>A</i> Answer option</span><span><i>B</i> Answer option</span><span><i>C</i> Answer option</span><span><i>D</i> Answer option</span></div><div class="quiz-next">NEXT QUESTION <b>→</b></div></div><span class="visual-index">04</span></button>
+            <div class="project-info"><div><p class="project-type">DESKTOP APPLICATION <span>·</span> JAVA SWING</p><h3>Interactive Quiz Application</h3><p>A desktop quiz with a structured Java Swing GUI and clear app-like workflow. Features 20 multiple-choice and true/false questions, next-question navigation, score tracking, progress display, a result screen, and score-based motivational messages.</p></div><button class="arrow-button" type="button" data-project="3" aria-label="View Java quiz application details">↗</button></div>
+          </article>
+          <article class="project-card" data-category="web" data-reveal>
+            <button class="project-visual visual-portfolio" type="button" data-project="4" aria-label="View details for the personal portfolio website in progress"><span class="visual-topline"><span>PERSONAL WEBSITE / IN PROGRESS</span><span>↗</span></span><div class="portfolio-screen"><div class="portfolio-nav"><b>HZY.</b><span>WORK&nbsp;&nbsp; ABOUT&nbsp;&nbsp; CONTACT</span></div><div class="portfolio-hero"><span>NETWORK COMPUTING / UNIMAS</span><b>Hiew Zhien<br />Yeung<span>.</span></b><i>Personal portfolio</i></div><div class="portfolio-projects"><span>SELECTED PROJECTS</span><i>ISITI Inventory</i><i>KWB Billing</i><i>Java Quiz</i></div></div><span class="visual-index">05</span></button>
+            <div class="project-info"><div><p class="project-type">PERSONAL WEBSITE <span>·</span> IN PROGRESS</p><h3>Personal Portfolio Website</h3><p>An in-progress portfolio built with HTML, CSS, and JavaScript to present my background, projects, skills, and contact details.</p></div><button class="arrow-button" type="button" data-project="4" aria-label="View personal portfolio website details">↗</button></div>
+          </article>
+        </div>
+        <p class="empty-state" id="empty-state" hidden>No projects match that search. Try another word.</p>
+        <p class="work-note" data-reveal><span class="note-star">✳</span> These are stylized project previews rather than screenshots of the original systems. Add dates, tools, or links where available.</p>
+      </section>
+
+      <section class="about section-shell section-space" id="about" aria-labelledby="about-title">
+        <div class="section-heading" data-reveal><div><p class="eyebrow">02 / A LITTLE ABOUT ME</p><h2 id="about-title">Good work starts<br /><em>with good questions.</em></h2></div><p class="section-intro">I’m interested in the details people remember: the clear button, the thoughtful flow, the moment something just makes sense.</p></div>
+        <div class="about-layout" data-reveal>
+          <div class="about-note"><div class="note-index">A NOTE TO SELF <span>— 01</span></div><p>“Stay curious.<br />Make it useful.<br /><span>Leave room to play.</span>”</p><div class="note-signature">ZHIEN YEUNG <span>✳</span></div></div>
+          <div class="about-content"><p class="about-lede">I’m a third-year Network Computing student at Universiti Malaysia Sarawak (UNIMAS), based in Kuching. I’m interested in how web interfaces and the networks behind them work together.</p><p>My hands-on experience includes technical support, network cabling, CCTV setup, software installation, and PC upgrades. I’m continuing to build my skills through practical work and collaboration.</p><div class="skill-block"><div class="skill-heading"><h3>Technical skills & tools</h3><span class="mono">CURRENT TOOLKIT</span></div><div class="skill-list"><span>C</span><span>C++</span><span>SQL</span><span>Python</span><span>Java</span><span>HTML</span><span>CSS</span><span>WordPress</span><span>Network cabling</span><span>CCTV configuration</span><span>Antivirus deployment</span><span>PC assembly & upgrades</span></div></div><div class="experience-list"><div class="skill-heading"><h3>Education</h3><span class="mono">CURRENT</span></div><div class="experience-row"><span class="experience-year">YEAR 3</span><div><b>Network Computing student</b><p>UNIVERSITI MALAYSIA SARAWAK (UNIMAS)</p></div><span class="experience-arrow">↗</span></div></div><div class="experience-list"><div class="skill-heading"><h3>Experience</h3><span class="mono">2024 · PART-TIME</span></div><div class="experience-row work-experience-row"><span class="experience-year">2024</span><div><b>Part-time technical support</b><p>DIGITAL TRANSFORMATIONS PLT · SEMESTER BREAK</p><ul class="experience-tasks"><li>Installed network cables and configured CCTV systems.</li><li>Installed antivirus software at government agencies, including JIM, UTC, JPN, and JPM.</li><li>Repaired and installed smart TVs at a primary school.</li><li>Built PCs, installed graphics cards, and configured computers for Swinburne University in Kuching.</li></ul></div><span class="experience-arrow">↗</span></div></div></div>
+        </div>
+      </section>
+
+      <section class="contact section-shell section-space" id="contact" aria-labelledby="contact-title">
+        <div class="contact-card" data-reveal><div class="contact-orb" aria-hidden="true"><span>✳</span></div><div class="contact-main"><p class="eyebrow">03 / GET IN TOUCH</p><h2 id="contact-title">Let’s make<br /><em>something good.</em></h2><p>Have a project, question, or opportunity in mind? I’d be glad to hear from you.</p><a class="button button-light" href="mailto:michaelhiew2025@gmail.com">Say hello <span aria-hidden="true">↗</span></a></div><div class="contact-side"><span class="mono">FIND ME AROUND THE WEB</span><a href="mailto:michaelhiew2025@gmail.com">michaelhiew2025@gmail.com ↗</a><a href="https://www.linkedin.com/in/zhien-yeung-hiew" target="_blank" rel="noreferrer">LinkedIn ↗</a><button class="copy-email" type="button" data-copy-email="michaelhiew2025@gmail.com">Copy email <span aria-hidden="true">▣</span></button><p class="copy-status" aria-live="polite"></p></div></div>
+      </section>
+    </main>
+    <footer class="site-footer section-shell"><a class="brand" href="#home"><span class="brand-mark">HZY</span><span>Hiew Zhien Yeung</span></a><span class="footer-credit">DESIGNED & BUILT WITH CURIOSITY <span>✳</span></span><a class="back-top" href="#top">BACK TO TOP ↑</a><span class="footer-year">© <span id="year">2026</span> HIEW ZHIEN YEUNG</span></footer>
+
+    <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><span class="mono" id="dialog-kicker">PROJECT / 01</span><button class="dialog-close" type="button" aria-label="Close project details">×</button></div><h2 id="dialog-title">Project title</h2><p id="dialog-description"></p><div class="dialog-meta"><span>ROLE</span><b id="dialog-role"></b><span>TOOLS</span><b id="dialog-tools"></b><span>YEAR / CONTEXT</span><b id="dialog-year"></b></div><p class="dialog-reminder">Update project tools and add a live link or screenshot where available.</p></dialog>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>
